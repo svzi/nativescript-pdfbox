@@ -5,7 +5,8 @@ matrix:
       os: linux
       node_js: "6"
       script: cd src && npm run ci.tslint && cd ../demo && npm run ci.tslint
-    - language: android
+    - stage: "WebPack"
+      language: android
       os: linux
       env:
         - Platform="Android"
