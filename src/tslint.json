@@ -1,0 +1,17 @@
+{
+	"defaultSeverity": "error",
+	"extends": ["tslint:recommended", "tslint-eslint-rules", "tslint-config-prettier"],
+	"jsRules": {},
+	"rules": {
+		"quotemark": [true, "single", "avoid-escape"],
+		"no-duplicate-variable": true,
+		"no-unused-variable": [true],
+		"variable-name": false,
+		"no-console": [false, "log", "error"],
+		"object-literal-shorthand": false,
+		"no-bitwise": false,
+		"no-string-literal": false,
+		"jsdoc-format": false
+	},
+	"rulesDirectory": ["node_modules/tslint-eslint-rules/dist/rules"]
+}

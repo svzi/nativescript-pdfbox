@@ -1,0 +1,11 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page"
+  xmlns:ui="nativescript-pdfbox">
+  <ScrollView>
+    <StackLayout class="p-10">
+        <Label text="Text with line breaks:" class="t-20 c-black" textWrap="true" />
+        <Label text="{{ messageNotRemovedLB }}" class="t-14" textWrap="true"/>
+        <Label text="Text without line breaks:" class="t-20 c-black" textWrap="true" />
+        <Label text="{{ messageRemovedLB }}" class="t-14" textWrap="true"/>
+    </StackLayout>
+  </ScrollView>
+</Page>
