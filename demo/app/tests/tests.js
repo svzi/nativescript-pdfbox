@@ -1,12 +1,12 @@
-var Pdfbox = require("nativescript-pdfbox").Pdfbox;
+var Pdfbox = require('nativescript-pdfbox').Pdfbox;
 var pdfbox = new Pdfbox();
 
-describe("greet function", function() {
-    it("exists", function() {
-        expect(pdfbox.greet).toBeDefined();
-    });
+describe('greet function', function() {
+	it('exists', function() {
+		expect(pdfbox.getText).toBeDefined();
+	});
 
-    it("returns a string", function() {
-        expect(pdfbox.greet()).toEqual("Hello, NS");
-    });
+	it('returns a string', function() {
+		expect(pdfbox.getText()).toEqual('Hello, NS');
+	});
 });
