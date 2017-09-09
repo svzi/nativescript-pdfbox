@@ -1,23 +1,21 @@
 # NativeScript PdfBox  ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png)
 
-[![NPM](https://nodei.co/npm/nativescript-pdfbox.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/nativescript-urlhandler/)
+[![Build Status](https://travis-ci.org/svzi/nativescript-pdfbox.svg?branch=master)](https://travis-ci.org/svzi/nativescript-pdfbox)
 
-Apache Pdfbox for NativeScript. It allows to extract the text from a PDF file.
+Apache Pdfbox for NativeScript. This plugin allows you to extract the text from a PDF file.
 
 ![Sample Android](screenshots/android.png)
 
-The screenshot is based on this [sample.pdf](demo/app/sample.pdf). The pdf file is included in the demo project.
+The screenshot is based on the [sample.pdf](demo/app/sample.pdf) included in the demo project.
 
 Based on:
 
 - Android [PdfBox-Android](https://github.com/TomRoush/PdfBox-Android)
 
-This plugin is currently only avaiable for Android. 
+The plugin is currently only avaiable for Android. 
 
 
 ## Installation
-
-Describe your plugin installation steps. Ideally it would be something like:
 
 ```bash
 tns plugin add nativescript-pdfbox
