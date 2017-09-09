@@ -12,16 +12,16 @@ export class PdfBox {
     }
 
     public getText(pathOrUri: any, removeLineBreaks: boolean = false): Promise<string> {
-        console.log('PdfBox::getText(), pathOrUri: ' + pathOrUri);
+        // console.log('PdfBox::getText(), pathOrUri: ' + pathOrUri);
 
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 const strPath: string = pathOrUri as string;
-                console.log('PdfBox::getText(), strPath: "' + strPath + '"');
-                console.log('PdfBox::getText(), typeof pathOrUri: ' + typeof pathOrUri);
+                // console.log('PdfBox::getText(), strPath: "' + strPath + '"');
+                // console.log('PdfBox::getText(), typeof pathOrUri: ' + typeof pathOrUri);
 
                 if (typeof pathOrUri === 'object') {
-                    console.log('PdfBox::getText(), found uri...');
+                    // console.log('PdfBox::getText(), found uri...');
                     let is: java.io.FileInputStream = null;
                     try {
                         const ctx = this.getContext();
@@ -38,9 +38,9 @@ export class PdfBox {
                         reject('could not create input stream!');
                     }
                 } else {
-                    console.log('PdfBox::getText(), found path...');
+                    // console.log('PdfBox::getText(), found path...');
                     const file: java.io.File = new java.io.File(pathOrUri);
-                    console.log('file: ' + file);
+                    // console.log('file: ' + file);
 
                     this.parseText(file, removeLineBreaks).then(resolve).catch(reject);
                 }
