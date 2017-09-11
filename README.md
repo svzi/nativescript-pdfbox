@@ -1,8 +1,13 @@
 # NativeScript PdfBox  ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png)
 
+[![npm](https://img.shields.io/npm/v/nativescript-pdfbox.svg)](https://www.npmjs.com/package/nativescript-pdfbox)
+[![npm](https://img.shields.io/npm/dt/nativescript-pdfbox.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-pdfbox)
 [![Build Status](https://travis-ci.org/svzi/nativescript-pdfbox.svg?branch=master)](https://travis-ci.org/svzi/nativescript-pdfbox)
 
 Apache Pdfbox for NativeScript. This plugin allows you to extract the text from a PDF file.
+
+**ALPHA version. Android only (iOS may come in the future, PR are welcome).**
+
 
 ![Sample Android](screenshots/android.png)
 
@@ -11,8 +16,6 @@ The screenshot is based on the [sample.pdf](demo/app/sample.pdf) included in the
 Based on:
 
 - Android [PdfBox-Android](https://github.com/TomRoush/PdfBox-Android)
-
-The plugin is currently only avaiable for Android. 
 
 
 ## Installation
